@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_notes">
+
+    <fragment
+        android:id="@+id/nav_notes"
+        android:name="com.dicoding.picodiploma.fastnotepad.ui.home.HomeFragment"
+        android:label="@string/my_notes"
+        tools:layout="@layout/fragment_my_notes" />
+
+    <fragment
+        android:id="@+id/nav_recycle_bin"
+        android:name="com.dicoding.picodiploma.fastnotepad.ui.gallery.GalleryFragment"
+        android:label="@string/recycle_bin"
+        tools:layout="@layout/fragment_recycle_bin" />
+
+    <fragment
+        android:id="@+id/nav_colors"
+        android:name="com.dicoding.picodiploma.fastnotepad.ui.slideshow.SlideshowFragment"
+        android:label="@string/colors"
+        tools:layout="@layout/fragment_colors" />
+
+    <fragment
+        android:id="@+id/nav_folders"
+        android:name="com.dicoding.picodiploma.fastnotepad.ui.tools.ToolsFragment"
+        android:label="@string/folders"
+        tools:layout="@layout/fragment_folders" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.dicoding.picodiploma.fastnotepad.ui.tools.ToolsFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+
+
+</navigation>

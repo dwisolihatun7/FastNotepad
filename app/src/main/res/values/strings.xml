@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fast Notepad</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_search">Search</string>
+
+    <string name="my_notes">My Notes</string>
+    <string name="recycle_bin">Recycle Bin</string>
+    <string name="colors">Colors</string>
+    <string name="folders">Folders</string>
+    <string name="setting">Setting</string>
+    <string name="recycle_bin_empty">Empty</string>
+</resources>

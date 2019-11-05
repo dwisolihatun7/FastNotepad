@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/my_notes"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/my_notes" />
+        <item
+            android:id="@+id/recycle_bin"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/recycle_bin" />
+        <item
+            android:id="@+id/colors"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/colors" />
+        <item
+            android:id="@+id/folders"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/folders" />
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/setting"/>
+    </group>
+
+
+</menu>
